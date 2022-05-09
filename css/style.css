@@ -299,3 +299,35 @@ h3 {
     color: rgb(11, 11, 12, .60);
     margin: 5px 0 5px;
 }
+
+
+@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+
+    .container {
+        display: block;
+    }
+
+    .hero-flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav {
+        display: block;
+    }
+
+    .nav-btns {
+        overflow: hidden;
+        /* position: relative; */
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .project-grid {
+        grid-template-columns: auto;
+    }
+
+
+}
