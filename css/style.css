@@ -330,5 +330,20 @@ h3 {
 	}
 }
 
-@media screen and (max-device-weidth: 1200) {
+@media screen and (max-width: 1000px) {
+	.social-icon-hero {
+		margin-right: 15px;
+	}
+
+	.sm-container {
+		display: flex;
+	}
+
+	.hero-flex {
+		display: block;
+	}
+
+	.project-grid {
+		grid-template-columns: none;
+	}
 }
