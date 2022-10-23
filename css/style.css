@@ -2,6 +2,10 @@ body {
 	margin: 0;
 }
 
+a {
+	color: inherit;
+}
+
 .container {
 	margin: 1vh 12vw;
 }
@@ -182,7 +186,7 @@ h2 {
 }
 
 .project-card {
-	/* border: 1px solid black; */
+	border: 1px solid transparent;
 	border-radius: 8px;
 	padding: 4rem 2rem;
 }
@@ -324,4 +328,7 @@ h3 {
 	.project-grid {
 		grid-template-columns: auto;
 	}
+}
+
+@media screen and (max-device-weidth: 1200) {
 }
